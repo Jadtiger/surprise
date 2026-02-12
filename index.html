@@ -12,9 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
   </head>
+
   <body>
+
+    <!-- 🔊 ADD THIS RIGHT HERE (Audio element) -->
+    <audio id="meow" src="meow.mp3"></audio>
+
     <!-- Envelope Screen -->
     <div id="envelope-container">
       <img src="envelope.png" alt="Envelope" id="envelope" />
@@ -29,7 +33,7 @@
         <img src="cat_heart.gif" class="cat" id="letter-cat" />
 
         <div class="buttons" id="letter-buttons">
-          <img src="yes.png" class="btn yes-btn" alt="Yes" />
+          <img src="yes.png" class="btn yes-btn" alt="Yes" id="yes-btn" />
 
           <div class="no-wrapper">
             <img src="no.png" class="btn no-btn" alt="No" />
@@ -41,6 +45,7 @@
         </p>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
