@@ -1,51 +1,54 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Valentines Gift!</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <title>Valentines Gift!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="stylesheet" href="style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
+<body>
 
-    <!-- 🔊 ADD THIS RIGHT HERE (Audio element) -->
-    <audio id="meow" src="meow.mp3"></audio>
+  <!-- 🔊 Audio -->
+  <audio id="meow" src="meow.mp3"></audio>
 
-    <!-- Envelope Screen -->
-    <div id="envelope-container">
-      <img src="envelope.png" alt="Envelope" id="envelope" />
-      <p>♡ For Annya ♡</p>
-    </div>
+  <!-- Envelope Screen -->
+  <div id="envelope-container">
+    <img src="envelope.png" alt="Envelope" id="envelope" />
+    <p>♡ For Annya ♡</p>
+  </div>
 
-    <!-- Letter Screen -->
-    <div id="letter-container">
-      <div class="letter-window">
-        <h1 id="letter-title">Be my valentine :( ?</h1>
+  <!-- Letter Screen -->
+  <div id="letter-container" style="display:none;">
+    <div class="letter-window">
+      <h1 id="letter-title">Be my valentine :( ?</h1>
 
-        <img src="cat_heart.gif" class="cat" id="letter-cat" />
+      <img src="cat_heart.gif" class="cat" id="letter-cat" />
 
-        <div class="buttons" id="letter-buttons">
-          <img src="yes.png" class="btn yes-btn" id="yes-btn" alt="Yes" />
-
-          <div class="no-wrapper">
-            <img src="no.png" class="btn no-btn" alt="No" />
-          </div>
+      <div class="buttons" id="letter-buttons">
+        <img src="yes.png" class="btn yes-btn" id="yes-btn" alt="Yes" />
+        <div class="no-wrapper">
+          <img src="no.png" class="btn no-btn" alt="No" />
         </div>
-
-        <p id="final-text" class="final-text" style="display: none">
-          <strong>YAYYYY MWAHH</strong> I learnt and made this all by myself just for you annya :> I hope you liked it! And copy paste this link to your browser for surprise 2!! (https://github.com/Jadtiger/gift)
-        </p>
       </div>
-    </div>
 
-    <script src="script.js"></script>
-  </body>
+      <p id="final-text" class="final-text" style="display: none;">
+        <strong>YAYYYY MWAHH 💖</strong><br><br>
+        I learnt and made this all by myself just for you Annya :>  
+        I hope you liked it!  
+        <br><br>
+        <a href="https://github.com/Jadtiger/gift" target="_blank">
+          🎁 Click here for surprise 2 🎁
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
